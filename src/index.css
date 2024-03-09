@@ -8,3 +8,9 @@ body{
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .glow {
+      text-shadow: 2px 2px 10px #d25bda;
+  }
+}
